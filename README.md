@@ -1,4 +1,4 @@
-# Home 版本说明
+# HomeLede 版本说明
 + 基于Lede OpenWrt 版本及来自Lienol软件包
 + 结合家庭x86软路由场景需要定制了软件包
 
