@@ -26,3 +26,8 @@ done
 
 ./scripts/feeds update -i
 ./scripts/feeds install -a
+
+if [ ! -f .config ];then
+cp defconfig .config
+echo "Default .config created."
+fi
