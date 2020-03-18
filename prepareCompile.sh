@@ -6,7 +6,11 @@ disablePkgsList="
 ./package/lean/luci-app-baidupcs-web 
 ./feeds/packages/net/miniupnpd 
 ./feeds/packages/net/mwan3 
-./feeds/packages/utils/ttyd
+./feeds/packages/utils/ttyd 
+./feeds/packages/utils/docker-ce 
+./feeds/packages/utils/containerd 
+./feeds/packages/utils/libnetwork
+./feeds/packages/utils/tini
 "
 
 function disableDulicatedPkg()
