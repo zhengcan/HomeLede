@@ -9,8 +9,9 @@ disablePkgsList="
 ./feeds/packages/utils/ttyd 
 ./feeds/packages/utils/docker-ce 
 ./feeds/packages/utils/containerd 
-./feeds/packages/utils/libnetwork
-./feeds/packages/utils/tini
+./feeds/packages/utils/libnetwork 
+./feeds/packages/utils/tini 
+./package/network/services/dropbear
 "
 
 function disableDulicatedPkg()
