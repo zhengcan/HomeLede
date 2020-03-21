@@ -11,7 +11,8 @@ disablePkgsList="
 ./feeds/packages/utils/containerd 
 ./feeds/packages/utils/libnetwork 
 ./feeds/packages/utils/tini 
-./package/network/services/dropbear
+./package/network/services/dropbear 
+./package/lean/luci-app-dockerman
 "
 
 function disableDulicatedPkg()
