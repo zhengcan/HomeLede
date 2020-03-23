@@ -36,12 +36,17 @@ PS：去广告综合解决方案使用方法请见 https://www.cnblogs.com/zlAur
 2. 国内用户编译前最好准备好梯子
 3. 默认登陆IP 192.168.1.1, 密码 password
 
-编译命令如下:
+编译前：
+1. 首先装好 Ubuntu 64bit，推荐  Ubuntu 18 LTS x64
+2. 至少30G空闲硬盘空间
+3. 2G以上内存
 
-1. 首先装好 Ubuntu 64bit，推荐  Ubuntu  14 LTS x64
+编译时:
+1. 更新apt-get包信息，命令行输入
+sudo apt-get update
 
-2. 命令行输入 sudo apt-get update ，然后输入
-sudo apt-get -y install build-essential asciidoc binutils bzip2 gawk gettext git libncurses5-dev libz-dev patch python3.5 unzip zlib1g-dev lib32gcc1 libc6-dev-i386 subversion flex uglifyjs git-core gcc-multilib p7zip p7zip-full msmtp libssl-dev texinfo libglib2.0-dev xmlto qemu-utils upx libelf-dev autoconf automake libtool autopoint device-tree-compiler g++-multilib linux-libc-dev:i386
+2. 安装编译依赖包，命令行输入
+sudo apt-get -y install build-essential asciidoc binutils bzip2 gawk gettext git libncurses5-dev libz-dev patch python3.5 unzip zlib1g-dev lib32gcc1 libc6-dev-i386 subversion flex uglifyjs git-core gcc-multilib p7zip p7zip-full msmtp libssl-dev texinfo libglib2.0-dev xmlto qemu-utils upx libelf-dev autoconf automake libtool autopoint device-tree-compiler g++-multilib
 
 3. git clone https://github.com/xiaoqingfengATGH/HomeLede.git homeLede命令下载好源代码，然后 cd homeLede 进入目录
 
@@ -51,7 +56,7 @@ sudo apt-get -y install build-essential asciidoc binutils bzip2 gawk gettext git
 
 6. 最后选好你要的路由，输入 make -j1 V=s （-j1 后面是线程数。第一次编译推荐用单线程，国内请尽量全局科学上网）即可开始编译你要的固件了。
 
-本套代码保证肯定可以编译成功。里面包括了 R9 所有源代码，包括 IPK 的。
+本套代码保证肯定可以编译成功。里面包括了 R20 所有源代码，包括 IPK 的。
 
 去广告订阅地址默认内置来自以下源，如有去广告的误杀漏杀问题可以到这里报告：
 
