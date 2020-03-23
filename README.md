@@ -23,7 +23,7 @@
 + 支持透明出国
 
 
-感谢Lead，Lienol，CTCGFW等等作者。
+感谢Lean（coolsnowwolf），Lienol，CTCGFW等等作者。
 
 PS：去广告综合解决方案使用方法请见 https://www.cnblogs.com/zlAurora/p/12433266.html
 
