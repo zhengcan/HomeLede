@@ -13,13 +13,35 @@ __target_inc=1
 DEVICE_TYPE?=router
 
 # Default packages - the really basic set
+#DEFAULT_PACKAGES:=base-files libc libgcc busybox dropbear mtd uci opkg netifd fstools uclient-fetch logd urandom-seed urngd \
+#block-mount coremark kmod-nf-nathelper kmod-nf-nathelper-extra kmod-ipt-raw wget libustream-openssl ca-certificates \
+#default-settings luci luci-app-ddns luci-app-upnp luci-app-adbyby-plus luci-app-autoreboot \
+#luci-app-filetransfer luci-app-vsftpd luci-app-ssr-plus luci-app-unblockmusic \
+#luci-app-arpbind luci-app-vlmcsd luci-app-wol luci-app-ramfree \
+#luci-app-sfe luci-app-flowoffload luci-app-nlbwmon luci-app-accesscontrol luci-app-cpufreq \
+#ddns-scripts_aliyun ddns-scripts_dnspod
+
+# Home Lede default packages
 DEFAULT_PACKAGES:=base-files libc libgcc busybox dropbear mtd uci opkg netifd fstools uclient-fetch logd urandom-seed urngd \
 block-mount coremark kmod-nf-nathelper kmod-nf-nathelper-extra kmod-ipt-raw wget libustream-openssl ca-certificates \
-default-settings luci luci-app-ddns luci-app-upnp luci-app-adbyby-plus luci-app-autoreboot \
-luci-app-filetransfer luci-app-vsftpd luci-app-ssr-plus luci-app-unblockmusic \
-luci-app-arpbind luci-app-vlmcsd luci-app-wol luci-app-ramfree \
-luci-app-sfe luci-app-flowoffload luci-app-nlbwmon luci-app-accesscontrol luci-app-cpufreq \
-ddns-scripts_aliyun ddns-scripts_dnspod
+curl bind-client \
+openssh-sftp-server kmod-fs-cifs cifsmount dropbearconvert open-vm-tools \
+docker-ce \
+default-settings autocore \
+luci-app-ddns ddns-scripts_aliyun ddns-scripts_cloudflare.com-v4 ddns-scripts_dnspod ddns-scripts_freedns_42_pl ddns-scripts_godaddy.com-v1 ddns-scripts_no-ip_com ddns-scripts_nsupdate ddns-scripts_route53-v1 \
+luci-app-adguardhome dnsmasq-china-list chinadns-ng luci-app-chinadns-ng luci-app-smartdns \
+luci-app-aria2 luci-app-kodexplorer luci-app-baidupcs-web luci-app-vsftpd \
+luci-app-hd-idle automount autosamba luci-app-usb-printer luci-app-vlmcsd \
+luci-app-wol luci-app-control-timewol \
+luci-app-syncdial luci-app-mwan3 luci-app-mwan3helper \
+luci-app-upnp luci-app-arpbind \
+luci-app-autoreboot luci-app-filetransfer luci-app-ramfree luci-app-ttyd luci-app-sfe \
+luci-app-zerotier luci-app-ipsec-vpnserver-manyusers \
+luci-app-haproxy-tcp  luci-app-kcptun \
+luci-app-passwall \
+luci-app-wrtbwmon luci-app-nlbwmon luci-app-statistics \
+luci-theme-argon-dark-mod luci-theme-netgear luci-theme-opentomato luci-theme-opentomcat
+
 # For nas targets
 DEFAULT_PACKAGES.nas:=block-mount fdisk lsblk mdadm
 # For router targets
