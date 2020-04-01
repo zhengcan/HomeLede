@@ -34,6 +34,7 @@ ath10k-firmware-qca988x ath10k-firmware-qca9888 ath10k-firmware-qca9984 brcmfmac
 kmod-sound-hda-core kmod-sound-hda-codec-realtek kmod-sound-hda-codec-via kmod-sound-via82xx kmod-sound-hda-intel kmod-sound-hda-codec-hdmi kmod-sound-i8x0 kmod-usb-audio \
 kmod-usb-net kmod-usb-net-asix kmod-usb-net-asix-ax88179 kmod-usb-net-rtl8150 kmod-usb-net-rtl8152 \
 autocore \
+homelede-autoconfig \
 docker-ce open-vm-tools \
 luci-app-aria2 luci-app-kodexplorer luci-app-baidupcs-web \
 luci-app-hd-idle automount autosamba luci-app-usb-printer \
