@@ -54,6 +54,16 @@ sed -i 's/cbi.submit\"] = true/cbi.submit\"] = \"1\"/g' /usr/lib/lua/luci/dispat
 
 echo 'hsts=0' > /root/.wgetrc
 
+if [ -r /etc/buildmark ]; then
+local HV=(cat /etc/buildmark)
+local LV=(cat /etc/openwrt_release | grep "'R[0-9]\{1,\}.[0-9]\{1,\}.[0-9]\{1,\}'" | sed $'s/\'//g' | cut -d '=' -f 2)
+sed -i '/DISTRIB_REVISION/d' /etc/openwrt_release
+echo "DISTRIB_REVISION='HomeLede $HV' based on OpenWrt $LV" >> /etc/openwrt_release
+sed -i '/DISTRIB_DESCRIPTION/d' /etc/openwrt_release
+echo "DISTRIB_DESCRIPTION='HomeLede '" >> /etc/openwrt_release
+fi
+sed -i '/REDIRECT --to-ports 53/d' /etc/firewall.user
+
 rm -rf /tmp/luci-modulecache/
 rm -f /tmp/luci-indexcache
 
