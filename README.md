@@ -30,7 +30,7 @@ PS：去广告综合解决方案使用方法请见 https://www.cnblogs.com/zlAur
 
 ==============================================================================
 
-中文：如何编译自己需要的 OpenWrt 固件
+编译说明
 
 注意：
 1. **不**要用 **root** 用户 git 和编译！！！
@@ -48,7 +48,7 @@ PS：去广告综合解决方案使用方法请见 https://www.cnblogs.com/zlAur
 `sudo apt-get update`
 
 2. 安装编译依赖包，命令行输入
-`sudo apt-get -y install build-essential asciidoc binutils bzip2 gawk gettext git libncurses5-dev libz-dev patch python3.5 unzip zlib1g-dev lib32gcc1 libc6-dev-i386 subversion flex uglifyjs git-core gcc-multilib p7zip p7zip-full msmtp libssl-dev texinfo libglib2.0-dev xmlto qemu-utils upx libelf-dev autoconf automake libtool autopoint device-tree-compiler g++-multilib`
+sudo apt-get -y install build-essential asciidoc binutils bzip2 gawk gettext git libncurses5-dev libz-dev patch python3.5 unzip zlib1g-dev lib32gcc1 libc6-dev-i386 subversion flex uglifyjs git-core gcc-multilib p7zip p7zip-full msmtp libssl-dev texinfo libglib2.0-dev xmlto qemu-utils upx libelf-dev autoconf automake libtool autopoint device-tree-compiler g++-multilib antlr3 gperf
 
 3. `git clone https://github.com/xiaoqingfengATGH/HomeLede.git homeLede`命令下载好源代码，然后 `cd homeLede` 进入目录
 

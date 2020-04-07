@@ -12,14 +12,16 @@ __target_inc=1
 # default device type
 DEVICE_TYPE?=router
 
+:<<!
 # Default packages - the really basic set
-#DEFAULT_PACKAGES:=base-files libc libgcc busybox dropbear mtd uci opkg netifd fstools uclient-fetch logd urandom-seed urngd \
-#block-mount coremark kmod-nf-nathelper kmod-nf-nathelper-extra kmod-ipt-raw wget libustream-openssl ca-certificates \
-#default-settings luci luci-app-ddns luci-app-upnp luci-app-adbyby-plus luci-app-autoreboot \
-#luci-app-filetransfer luci-app-vsftpd luci-app-ssr-plus luci-app-unblockmusic \
-#luci-app-arpbind luci-app-vlmcsd luci-app-wol luci-app-ramfree \
-#luci-app-sfe luci-app-flowoffload luci-app-nlbwmon luci-app-accesscontrol luci-app-cpufreq \
-#ddns-scripts_aliyun ddns-scripts_dnspod
+DEFAULT_PACKAGES:=base-files libc libgcc busybox dropbear mtd uci opkg netifd fstools uclient-fetch logd urandom-seed urngd \
+block-mount coremark kmod-nf-nathelper kmod-nf-nathelper-extra kmod-ipt-raw wget libustream-openssl ca-certificates \
+default-settings luci luci-app-ddns luci-app-upnp luci-app-adbyby-plus luci-app-autoreboot \
+luci-app-filetransfer luci-app-vsftpd luci-app-ssr-plus luci-app-unblockmusic \
+luci-app-arpbind luci-app-vlmcsd luci-app-wol luci-app-ramfree \
+luci-app-sfe luci-app-flowoffload luci-app-nlbwmon luci-app-accesscontrol luci-app-cpufreq \
+ddns-scripts_aliyun ddns-scripts_dnspod
+!
 
 # Home Lede default packages
 DEFAULT_PACKAGES:=base-files libc libgcc busybox dropbear mtd uci opkg netifd fstools uclient-fetch logd urandom-seed urngd \
@@ -35,9 +37,8 @@ luci-app-wol luci-app-control-timewol \
 luci-app-syncdial luci-app-mwan3 luci-app-mwan3helper \
 luci-app-upnp luci-app-arpbind \
 luci-app-autoreboot luci-app-filetransfer luci-app-ramfree luci-app-ttyd luci-app-sfe \
-luci-app-zerotier luci-app-ipsec-vpnserver-manyusers \
-luci-app-haproxy-tcp  luci-app-kcptun \
-luci-app-passwall \
+luci-app-zerotier luci-app-ipsec-vpnserver-manyusers luci-app-passwall \
+luci-app-kcptun \
 luci-app-wrtbwmon luci-app-nlbwmon luci-app-statistics
 
 # For nas targets
