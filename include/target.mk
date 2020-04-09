@@ -26,7 +26,7 @@ DEFAULT_PACKAGES:=base-files libc libgcc busybox dropbear mtd uci opkg netifd fs
 block-mount coremark kmod-nf-nathelper kmod-nf-nathelper-extra kmod-ipt-raw wget libustream-openssl ca-certificates \
 curl bind-client \
 openssh-sftp-server kmod-fs-cifs cifsmount dropbearconvert \
-default-settings \
+default-settings luci \
 luci-app-ddns ddns-scripts_aliyun ddns-scripts_cloudflare.com-v4 ddns-scripts_dnspod ddns-scripts_freedns_42_pl ddns-scripts_godaddy.com-v1 ddns-scripts_no-ip_com ddns-scripts_nsupdate ddns-scripts_route53-v1 \
 luci-app-adguardhome dnsmasq-china-list chinadns-ng luci-app-chinadns-ng luci-app-smartdns \
 luci-app-vsftpd \
@@ -34,7 +34,7 @@ luci-app-vlmcsd \
 luci-app-wol luci-app-control-timewol \
 luci-app-syncdial luci-app-mwan3 luci-app-mwan3helper \
 luci-app-upnp luci-app-arpbind \
-luci-app-autoreboot luci-app-filetransfer luci-app-ramfree luci-app-ttyd luci-app-sfe \
+luci-app-watchcat luci-app-filetransfer luci-app-ramfree luci-app-ttyd \
 luci-app-zerotier luci-app-ipsec-vpnserver-manyusers luci-app-passwall \
 luci-app-kcptun \
 luci-app-wrtbwmon luci-app-nlbwmon luci-app-statistics
