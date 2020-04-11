@@ -13,6 +13,7 @@ disablePkgsList="
 ./feeds/packages/utils/tini 
 ./package/network/services/dropbear 
 ./package/lean/luci-app-dockerman
+./package/lean/kcptun
 ./feeds/luci/applications/luci-app-upnp
 "
 
