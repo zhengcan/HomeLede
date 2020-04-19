@@ -41,7 +41,7 @@ homelede-autoconfig \
 docker-ce open-vm-tools \
 luci-app-aria2 luci-app-kodexplorer luci-app-baidupcs-web \
 luci-app-hd-idle automount autosamba luci-app-usb-printer \
-luci-theme-argon-dark-mod luci-theme-netgear luci-theme-opentomato luci-theme-opentomcat
+luci-theme-infinityfreedom luci-theme-argon-dark-mod luci-theme-netgear luci-theme-opentomato luci-theme-opentomcat
 
 $(eval $(call BuildTarget))
 
