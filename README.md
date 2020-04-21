@@ -1,4 +1,21 @@
 # HomeLede 版本说明
+[1]: https://img.shields.io/badge/license-GPLV2-brightgreen.svg
+[2]: /LICENSE
+[3]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg
+[4]: https://github.com/xiaoqingfengATGH/HomeLede/pulls
+[5]: https://img.shields.io/badge/Issues-welcome-brightgreen.svg
+[6]: https://github.com/xiaoqingfengATGH/HomeLede/issues/new
+[7]: https://img.shields.io/badge/release-v1.0-blue.svg?
+[8]: https://github.com/xiaoqingfengATGH/HomeLede/releases
+[9]: https://img.shields.io/github/downloads/xiaoqingfengATGH/HomeLede/total
+[10]: https://img.shields.io/badge/Contact-telegram-blue
+[11]: https://t.me/t_homelede
+[![license][1]][2]
+[![PRs Welcome][3]][4]
+[![Issue Welcome][5]][6]
+[![Release Version][7]][8]
+[![Release Count][9]][8]
+[![Contact Me][10]][11]
 + 基于Lede OpenWrt 及来自Lienol和若干自行维护的软件包（Feed）
 + 结合家庭x86软路由场景需要定制
 + 按照家庭应用场景对固件及软件进行测试（x86），通过后发布
