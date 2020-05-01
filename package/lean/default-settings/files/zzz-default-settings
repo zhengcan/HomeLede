@@ -73,7 +73,7 @@ uci set dhcp.@dnsmasq[0].filter_aaaa='1'
 uci add_list dhcp.lan.dhcp_option='6,192.168.1.1'
 uci commit dhcp
 
-uci set network.lan.dns='192.168.1.1'
+uci set network.lan.dns='127.0.0.1'
 uci commit network
 
 rm -rf /tmp/luci-modulecache/
