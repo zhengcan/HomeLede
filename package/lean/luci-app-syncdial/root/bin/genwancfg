@@ -4,7 +4,7 @@
 . /lib/functions.sh
 
 #检测IP列表
-chk_ip_list="www.baidu.com 114.114.114.114 119.29.29.29"
+chk_ip_list="119.29.29.29 114.114.114.114 www.baidu.com"
 origfirewall=$(uci get firewall.@zone[1].network)
 backupdev=$(uci get syncdial.config.devbackup)
 norun=$(echo $origfirewall|grep vwan)
