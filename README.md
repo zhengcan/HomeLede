@@ -5,7 +5,7 @@
 [4]: https://github.com/xiaoqingfengATGH/HomeLede/pulls
 [5]: https://img.shields.io/badge/Issues-welcome-brightgreen.svg
 [6]: https://github.com/xiaoqingfengATGH/HomeLede/issues/new
-[7]: https://img.shields.io/badge/release-v2020.04.29-blue.svg?
+[7]: https://img.shields.io/badge/release-v2020.05.10-blue.svg?
 [8]: https://github.com/xiaoqingfengATGH/HomeLede/releases
 [10]: https://img.shields.io/badge/Contact-telegram-blue
 [11]: https://t.me/t_homelede
@@ -35,9 +35,9 @@
 + 支持全功能Docker，可自由扩展功能（可安装目前还没有移植到OpenWrt上的软件）
 + 支持SFTP（可通过常见SSH客户端随意向路由传输文件，而不需要通过Web界面）
 + 预置OpenVMTools（优化在虚拟化环境中运行速度）
-+ 支持百度网盘远程下载（使用CIFS挂载NAS后可以远程下载网盘内容到NAS）
++ 支持网络访问管控（基于MAC黑白名单，按访问网站地址，按时间段控制）
 + 提供Aria2下载工具（远程或者本地下载普通链接，磁力链，BT等全部主流格式，挂载NAS后可直接下载到NAS）
-+ 提供视觉效果较好的皮肤
++ 提供视觉效果较好的原创主题infinityfreedom
 + 其他必备功能（具体请查看固件下载地址中的内置软件截图）
 
 感谢Lean（coolsnowwolf），Lienol，CTCGFW等等作者。
