@@ -80,9 +80,6 @@ uci commit network
 uci delete dhcp.@dnsmasq[0].resolvfile
 uci set dhcp.@dnsmasq[0].noresolv=1
 uci commit dhcp
-
-[ -f /etc/config/passwall_show ] && rm -rf /etc/config/passwall_show
-
 rm -rf /tmp/luci-modulecache/
 rm -f /tmp/luci-indexcache
 
