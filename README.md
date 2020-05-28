@@ -5,7 +5,7 @@
 [4]: https://github.com/xiaoqingfengATGH/HomeLede/pulls
 [5]: https://img.shields.io/badge/Issues-welcome-brightgreen.svg
 [6]: https://github.com/xiaoqingfengATGH/HomeLede/issues/new
-[7]: https://img.shields.io/badge/release-v2020.05.10-blue.svg?
+[7]: https://img.shields.io/badge/release-v2020.05.27-red.svg?
 [8]: https://github.com/xiaoqingfengATGH/HomeLede/releases
 [10]: https://img.shields.io/badge/Contact-telegram-blue
 [11]: https://t.me/t_homelede
@@ -26,7 +26,7 @@
 + 支持自动挂载空闲分区、U盘以及自动向局域网内部共享（通过Samba实现）
 + 支持单线/多线并发多拨（提升上行带宽，提高从因特网获取家庭文件速度）
 + 支持多拨负载均衡
-+ 内置综合DNS解决方案：去广告+国内域名加速解析+ 抗污染 + 速度优选 与PSW无缝集成
++ 内置综合DNS解决方案：去广告+国内域名加速解析+ 抗污染 + 速度优选 与PSW、Clash无缝集成
 + 支持DDNS（可以通过域名随时获得家庭路由器IP）
 + 支持SSH远程访问（从因特网连接路由器，传输文件，任意访问内网，端口转发等等）
 + 基于IpSec、IKev2、ZeroTier VPN方案（苹果，安卓手机可无需安装额外软件连入家庭局域网）
@@ -37,6 +37,7 @@
 + 预置OpenVMTools（优化在虚拟化环境中运行速度）
 + 支持网络访问管控（基于MAC黑白名单，按访问网站地址，按时间段控制）
 + 提供Aria2下载工具（远程或者本地下载普通链接，磁力链，BT等全部主流格式，挂载NAS后可直接下载到NAS）
++ 支持SQM 与 NFT Table QOS
 + 提供视觉效果较好的原创主题infinityfreedom
 + 其他必备功能（具体请查看固件下载地址中的内置软件截图）
 
