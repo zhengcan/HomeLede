@@ -3,7 +3,6 @@
 disablePkgsList="
 ./feeds/lienol/package/chinadns-ng 
 ./feeds/lienol/package/ipt2socks 
-./package/lean/baidupcs-web 
 ./package/lean/luci-app-baidupcs-web 
 ./feeds/packages/net/miniupnpd 
 ./feeds/packages/net/mwan3 
