@@ -9,3 +9,5 @@ src-git xiaoqingfeng https://github.com/xiaoqingfengATGH/feeds-xiaoqingfeng
 src-git infinityfreedom https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom.git
 # homeclash
 src-git homeclash https://github.com/xiaoqingfengATGH/homeclash.git
+# strongswanInDocker
+src-git strongswanInDocker https://github.com/xiaoqingfengATGH/luci-app-strongswanInDocker.git
