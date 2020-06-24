@@ -28,7 +28,7 @@ curl bind-client \
 openssh-sftp-server kmod-fs-cifs cifsmount dropbearconvert \
 default-settings luci \
 luci-app-ddns ddns-scripts_aliyun ddns-scripts_cloudflare.com-v4 ddns-scripts_dnspod ddns-scripts_freedns_42_pl ddns-scripts_godaddy.com-v1 ddns-scripts_no-ip_com ddns-scripts_nsupdate ddns-scripts_route53-v1 \
-luci-app-adguardhome dnsmasq-china-list chinadns-ng luci-app-chinadns-ng luci-app-smartdns \
+luci-app-adguardhome dnsmasq-china-list chinadns-ng dnscrypt-proxy2 luci-app-chinadns-ng luci-app-smartdns \
 luci-app-vsftpd \
 luci-app-vlmcsd \
 luci-app-wol luci-app-control-timewol \
