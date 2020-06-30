@@ -5,7 +5,6 @@ disablePkgsList="
 ./feeds/lienol/package/ipt2socks 
 ./feeds/lienol/package/v2ray 
 ./feeds/lienol/package/v2ray-plugin 
-./package/lean/luci-app-baidupcs-web 
 ./package/lean/luci-app-kodexplorer 
 ./feeds/packages/net/miniupnpd 
 ./feeds/packages/net/mwan3 
