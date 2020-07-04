@@ -19,6 +19,7 @@ disablePkgsList="
 ./feeds/packages/utils/tini 
 ./feeds/packages/net/https-dns-proxy 
 ./feeds/packages/net/kcptun 
+./feeds/packages/net/smartdns 
 ./package/network/services/dropbear 
 ./feeds/luci/applications/luci-app-upnp
 "
