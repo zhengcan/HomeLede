@@ -5,7 +5,10 @@ disablePkgsList="
 ./feeds/lienol/package/ipt2socks 
 ./feeds/lienol/package/v2ray 
 ./feeds/lienol/package/v2ray-plugin 
+./feeds/lienol/others/luci-app-kcptun 
 ./package/lean/luci-app-kodexplorer 
+./package/lean/luci-app-dockerman 
+./package/lean/kcptun 
 ./feeds/packages/net/miniupnpd 
 ./feeds/packages/net/mwan3 
 ./feeds/packages/utils/ttyd 
@@ -13,10 +16,8 @@ disablePkgsList="
 ./feeds/packages/utils/containerd 
 ./feeds/packages/utils/libnetwork 
 ./feeds/packages/utils/tini 
-./package/network/services/dropbear 
 ./feeds/packages/net/https-dns-proxy 
-./package/lean/luci-app-dockerman 
-./package/lean/kcptun 
+./package/network/services/dropbear 
 ./feeds/luci/applications/luci-app-upnp
 "
 
