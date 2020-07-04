@@ -18,6 +18,7 @@ disablePkgsList="
 ./feeds/packages/utils/libnetwork 
 ./feeds/packages/utils/tini 
 ./feeds/packages/net/https-dns-proxy 
+./feeds/packages/net/kcptun 
 ./package/network/services/dropbear 
 ./feeds/luci/applications/luci-app-upnp
 "
