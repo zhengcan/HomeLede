@@ -6,6 +6,7 @@ disablePkgsList="
 ./feeds/lienol/package/v2ray 
 ./feeds/lienol/package/v2ray-plugin 
 ./feeds/lienol/others/luci-app-kcptun 
+./feeds/lienol/lienol/luci-app-ssr-python-pro-server 
 ./package/lean/luci-app-kodexplorer 
 ./package/lean/luci-app-dockerman 
 ./package/lean/kcptun 
