@@ -1,4 +1,4 @@
-# HomeLede 版本说明
+# HomeLede （Kernel 5.x) 版本说明
 [1]: https://img.shields.io/badge/license-GPLV2-brightgreen.svg
 [2]: /LICENSE
 [3]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg
@@ -68,13 +68,15 @@ PS：内置综合DNS解决方案说明请见 https://www.cnblogs.com/zlAurora/p/
 `sudo apt-get -y install build-essential asciidoc binutils bzip2 gawk gettext git libncurses5-dev libz-dev patch python3.5 python2.7 unzip zlib1g-dev lib32gcc1 libc6-dev-i386 subversion flex uglifyjs git-core gcc-multilib p7zip p7zip-full msmtp libssl-dev texinfo libglib2.0-dev xmlto qemu-utils upx libelf-dev autoconf automake libtool autopoint device-tree-compiler g++-multilib antlr3 gperf wget`
 3. `git clone https://github.com/xiaoqingfengATGH/HomeLede.git homeLede`命令下载好源代码，然后 `cd homeLede` 进入目录
 
-4.  `./prepareCompile.sh`
+4. ·git checkout -b k5 origin/k5·
 
-5. `make download V=s` 下载dl库（国内请尽量全局科学上网,如果程序下载失败，也可以提取网址自行下载后放入dl文件夹，此文件夹通常不需要删除）
+5.  `./prepareCompile.sh`
 
-6. `make menuconfig`  配置软件包
+6. `make download V=s` 下载dl库（国内请尽量全局科学上网,如果程序下载失败，也可以提取网址自行下载后放入dl文件夹，此文件夹通常不需要删除）
 
-7. `make -j1 V=s` （-j1 后面是线程数。第一次编译推荐用单线程，国内请尽量全局科学上网）即可开始编译你要的固件了。
+7. `make menuconfig`  配置软件包
+
+8. `make -j1 V=s` （-j1 后面是线程数。第一次编译推荐用单线程，国内请尽量全局科学上网）即可开始编译你要的固件了。
 
 编译成功后，再次编译可以启动多线程编译。如4核心8线程i7上开启16线程使用`make -j16 V=sc`
 
@@ -88,3 +90,8 @@ https://github.com/privacy-protection-tools/anti-AD
 如需直接编译完成的固件，请访问Google网盘
 
 链接：https://drive.google.com/open?id=1iUDsgh1y5qouP48V61aTsswi3IekscKk
+
+## 交流
++ 电报 https://t.me/t_homelede  
++ 交流群：QQ 1030484865
++ 交流群2：QQ 807741215
