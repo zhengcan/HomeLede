@@ -9,6 +9,9 @@
 [8]: https://github.com/xiaoqingfengATGH/HomeLede/releases
 [10]: https://img.shields.io/badge/Contact-telegram-blue
 [11]: https://t.me/t_homelede
+
+[寻找基于5.x内核的源码？点这里](https://github.com/xiaoqingfengATGH/HomeLede/tree/k5)
+
 [![license][1]][2]
 [![PRs Welcome][3]][4]
 [![Issue Welcome][5]][6]
@@ -88,3 +91,8 @@ https://github.com/privacy-protection-tools/anti-AD
 如需直接编译完成的固件，请访问Google网盘
 
 链接：https://drive.google.com/open?id=1iUDsgh1y5qouP48V61aTsswi3IekscKk
+
+## 交流
++ 电报 https://t.me/t_homelede
++ 交流群：QQ 1030484865
++ 交流群2：QQ 807741215
