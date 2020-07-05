@@ -23,7 +23,8 @@ disablePkgsList="
 ./feeds/packages/net/kcptun 
 ./feeds/packages/net/smartdns 
 ./package/network/services/dropbear 
-./feeds/luci/applications/luci-app-upnp
+./feeds/luci/applications/luci-app-upnp 
+./feeds/luci/applications/luci-app-sqm
 "
 
 function disableDulicatedPkg()
