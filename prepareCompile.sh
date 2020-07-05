@@ -8,6 +8,7 @@ disablePkgsList="
 ./feeds/lienol/others/luci-app-kcptun 
 ./feeds/lienol/lienol/luci-app-ssr-python-pro-server 
 ./package/lean/luci-app-kodexplorer 
+./package/lean/luci-lib-docker 
 ./package/lean/luci-app-dockerman 
 ./package/lean/kcptun 
 ./feeds/packages/net/miniupnpd 
