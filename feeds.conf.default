@@ -1,4 +1,4 @@
-src-git packages https://github.com/xiaoqingfengATGH/k5-feeds-packages
+src-git packages https://github.com/coolsnowwolf/packages
 src-git luci https://github.com/xiaoqingfengATGH/feeds-luci
 src-git routing https://github.com/xiaoqingfengATGH/k5-feeds-routing
 src-git telephony https://github.com/xiaoqingfengATGH/k5-feeds-telephony
