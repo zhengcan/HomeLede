@@ -14,6 +14,9 @@
 [![Issue Welcome][5]][6]
 [![Release Version][7]][8]
 [![Contact Me][10]][11]
+
+[固件使用说明](https://github.com/xiaoqingfengATGH/HomeLede/wiki)
+
 + 基于Lede OpenWrt 及来自Lienol和若干自行维护的软件包（Feed）
 + 结合家庭x86软路由场景需要定制
 + 按照家庭应用场景对固件及软件进行测试（x86），通过后发布
@@ -43,8 +46,6 @@
 
 感谢Lean（coolsnowwolf），Lienol，CTCGFW等等作者。
 
-PS：内置综合DNS解决方案说明请见 https://www.cnblogs.com/zlAurora/p/12501185.html
-
 ==============================================================================
 
 ## 编译说明
@@ -66,7 +67,7 @@ PS：内置综合DNS解决方案说明请见 https://www.cnblogs.com/zlAurora/p/
 
 2. 安装编译依赖包，命令行输入
 `sudo apt-get -y install build-essential asciidoc binutils bzip2 gawk gettext git libncurses5-dev libz-dev patch python3.5 python2.7 unzip zlib1g-dev lib32gcc1 libc6-dev-i386 subversion flex uglifyjs git-core gcc-multilib p7zip p7zip-full msmtp libssl-dev texinfo libglib2.0-dev xmlto qemu-utils upx libelf-dev autoconf automake libtool autopoint device-tree-compiler g++-multilib antlr3 gperf wget swig`
-3. `git clone https://github.com/xiaoqingfengATGH/HomeLede.git homeLede`命令下载好源代码，然后 `cd homeLede` 进入目录
+3. `git clone https://github.com/xiaoqingfengATGH/HomeLede.git homeLede`命令下载好源代码，然后 `cd HomeLede` 进入目录
 
 4. `git checkout -b k5 origin/k5`
 
