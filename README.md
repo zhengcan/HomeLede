@@ -12,6 +12,8 @@
 
 [寻找基于5.x内核的源码？点这里](https://github.com/xiaoqingfengATGH/HomeLede/tree/k5)
 
+[固件使用说明](https://github.com/xiaoqingfengATGH/HomeLede/wiki)
+
 [![license][1]][2]
 [![PRs Welcome][3]][4]
 [![Issue Welcome][5]][6]
