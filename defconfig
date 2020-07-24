@@ -2846,7 +2846,6 @@ CONFIG_PACKAGE_MAC80211_MESH=y
 # CONFIG_PACKAGE_kmod-mt76 is not set
 # CONFIG_PACKAGE_kmod-mt7601u is not set
 # CONFIG_PACKAGE_kmod-mt7603 is not set
-# CONFIG_PACKAGE_kmod-mt7603e is not set
 # CONFIG_PACKAGE_kmod-mt7615-firmware is not set
 # CONFIG_PACKAGE_kmod-mt7615e is not set
 # CONFIG_PACKAGE_kmod-mt7663-firmware-ap is not set
@@ -2855,7 +2854,6 @@ CONFIG_PACKAGE_MAC80211_MESH=y
 # CONFIG_PACKAGE_kmod-mt76x0e is not set
 # CONFIG_PACKAGE_kmod-mt76x0u is not set
 # CONFIG_PACKAGE_kmod-mt76x2 is not set
-# CONFIG_PACKAGE_kmod-mt76x2e is not set
 # CONFIG_PACKAGE_kmod-mt76x2u is not set
 # CONFIG_PACKAGE_kmod-mt7915e is not set
 # CONFIG_PACKAGE_kmod-mwifiex-pcie is not set
@@ -4350,6 +4348,7 @@ CONFIG_PACKAGE_libdevmapper=y
 # CONFIG_PACKAGE_libdnet is not set
 CONFIG_PACKAGE_libdouble-conversion=m
 # CONFIG_PACKAGE_libdrm is not set
+# CONFIG_PACKAGE_libduktape is not set
 # CONFIG_PACKAGE_libdw is not set
 # CONFIG_PACKAGE_libecdsautil is not set
 CONFIG_PACKAGE_libedit=m
@@ -4954,6 +4953,7 @@ CONFIG_PACKAGE_luci-theme-argon-dark-mod=y
 # CONFIG_PACKAGE_luci-theme-argon-light-mod is not set
 CONFIG_PACKAGE_luci-theme-bootstrap=y
 # CONFIG_PACKAGE_luci-theme-bootstrap-mod is not set
+CONFIG_PACKAGE_luci-theme-edge=y
 # CONFIG_PACKAGE_luci-theme-freifunk-generic is not set
 CONFIG_PACKAGE_luci-theme-infinityfreedom=y
 # CONFIG_PACKAGE_luci-theme-material is not set
@@ -7254,6 +7254,7 @@ CONFIG_DOCKER_STO_EXT4=y
 # CONFIG_PACKAGE_domoticz is not set
 CONFIG_PACKAGE_dropbearconvert=y
 # CONFIG_PACKAGE_dtc is not set
+# CONFIG_PACKAGE_duktape is not set
 # CONFIG_PACKAGE_dump1090 is not set
 # CONFIG_PACKAGE_ecdsautils is not set
 # CONFIG_PACKAGE_elektra-kdb is not set
