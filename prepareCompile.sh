@@ -11,6 +11,7 @@ disablePkgsList="
 ./package/lean/luci-lib-docker 
 ./package/lean/luci-app-dockerman 
 ./package/lean/kcptun 
+./package/lean/luci-theme-argon 
 ./feeds/packages/net/miniupnpd 
 ./feeds/packages/net/mwan3 
 ./feeds/packages/utils/ttyd 
