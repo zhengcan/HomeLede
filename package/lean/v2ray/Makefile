@@ -9,13 +9,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=v2ray
-PKG_VERSION:=4.26.0
+PKG_VERSION:=4.27.0
 PKG_RELEASE:=1
 PKG_BUILD_DIR:=$(BUILD_DIR)/v2ray-core-$(PKG_VERSION)
 
 PKG_SOURCE:=v2ray-core-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://codeload.github.com/v2fly/v2ray-core/tar.gz/v$(PKG_VERSION)?
-PKG_HASH:=233e5acaf69a612c130655fea21291ffcce81a52771310ef97871b641e5f29d6
+PKG_HASH:=5e1b0146953398a5422611b20f5e62c3a9c3efd62cd42295762f6f39d8eff31e
 
 PKG_LICENSE:=MIT
 PKG_LICENSE_FILES:=LICENSE
@@ -89,8 +89,7 @@ endef
 
 ifeq ($(CONFIG_V2RAY_COMPRESS_GOPROXY),y)
 export GO111MODULE=on
-export GOPROXY=https://goproxy.io
-#export GOPROXY=https://mirrors.aliyun.com/goproxy/
+export GOPROXY=https://goproxy.cn
 endif
 
 V2RAY_SED_ARGS:=
