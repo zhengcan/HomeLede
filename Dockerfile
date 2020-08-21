@@ -18,5 +18,5 @@ WORKDIR /home/user
 RUN git clone -b k5 https://github.com/zhengcan/HomeLede/ && \
   cd HomeLede && \
   ./prepareCompile.sh && \
-  make download V=s && \
+  make download V=s
 
